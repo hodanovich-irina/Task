@@ -117,7 +117,7 @@ namespace UnitTestProject
         /// Field validation method
         /// </summary>
         [TestMethod]
-        public void TeatClothName()
+        public void TestPassport()
         {
             Passport card = new Passport()
             {
