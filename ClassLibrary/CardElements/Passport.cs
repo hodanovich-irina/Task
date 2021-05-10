@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ClassLibrary.CardElements
 {
     /// <summary>
-    /// Passport descrition
+    /// Passport description
     /// </summary>
     public class Passport : ElectronicCard
     {

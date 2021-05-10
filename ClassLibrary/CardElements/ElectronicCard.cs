@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ClassLibrary.CardElements
 {
     /// <summary>
-    /// Electronic card descrition
+    /// Electronic card description
     /// </summary>
     public abstract class ElectronicCard
     {
