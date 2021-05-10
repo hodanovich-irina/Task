@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineInterface", "CommandLineInterface\CommandLineInterface.csproj", "{8A5C27A5-242A-40D3-9DE5-FF0C82E6ECE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{9B603B76-1107-4B93-9873-379DB0D516BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryUnitTestProject", "ClassLibraryUnitTestProject\ClassLibraryUnitTestProject.csproj", "{4582AA01-6C62-40DF-B89B-A1E62FD075DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{8A5C27A5-242A-40D3-9DE5-FF0C82E6ECE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5C27A5-242A-40D3-9DE5-FF0C82E6ECE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5C27A5-242A-40D3-9DE5-FF0C82E6ECE2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B603B76-1107-4B93-9873-379DB0D516BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B603B76-1107-4B93-9873-379DB0D516BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B603B76-1107-4B93-9873-379DB0D516BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B603B76-1107-4B93-9873-379DB0D516BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4582AA01-6C62-40DF-B89B-A1E62FD075DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4582AA01-6C62-40DF-B89B-A1E62FD075DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4582AA01-6C62-40DF-B89B-A1E62FD075DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4582AA01-6C62-40DF-B89B-A1E62FD075DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

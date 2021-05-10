@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ClassLibrary.CardElements;
 
-namespace UnitTestProject
+namespace ClassLibraryUnitTestProject
 {
     /// <summary>
     /// Class for testing ClassLibrary
@@ -54,7 +54,7 @@ namespace UnitTestProject
             var actual = card.Equals(card1);
 
             Assert.IsFalse(actual);
-            
+
         }
 
         /// <summary>
@@ -130,7 +130,7 @@ namespace UnitTestProject
                 IdentificationeNumber = "689FV7906GG6",
                 Citizen = "RB",
                 Start = new DateTime(2002, 10, 10)
-               
+
             };
 
             Assert.AreEqual("Alex", card.Name);
