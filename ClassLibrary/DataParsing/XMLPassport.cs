@@ -52,7 +52,7 @@ namespace ClassLibrary.DataParsing
         public void XMLCreatePassport(Passport card)
         {
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("XMLFileCardInf.xml");
+            xDoc.Load(@"../../XMLFileCardInf.xml");
             XmlElement xRoot = xDoc.DocumentElement;
             XmlElement userElem = xDoc.CreateElement("passport");
             XmlElement a1 = xDoc.CreateElement("number");
@@ -83,7 +83,7 @@ namespace ClassLibrary.DataParsing
             userElem.AppendChild(a8);
             userElem.AppendChild(a9);
             xRoot.AppendChild(userElem);
-            xDoc.Save("XMLFileCardInf.xml");
+            xDoc.Save(@"../../XMLFileCardInf.xml");
         }
     }
 }

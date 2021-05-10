@@ -20,7 +20,7 @@ namespace ClassLibrary.DataParsing
         public void XMLCreateInsurancePolicy(InsurancePolicy card) 
         {
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("XMLFileCardInf.xml");
+            xDoc.Load(@"../../XMLFileCardInf.xml");
             XmlElement xRoot = xDoc.DocumentElement;
             XmlElement userElem = xDoc.CreateElement("insurancePolicy");
             XmlElement a1 = xDoc.CreateElement("number");
@@ -45,7 +45,7 @@ namespace ClassLibrary.DataParsing
             userElem.AppendChild(a6);
             userElem.AppendChild(a7);
             xRoot.AppendChild(userElem);
-            xDoc.Save("XMLFileCardInf.xml");
+            xDoc.Save(@"../../XMLFileCardInf.xml");
         }
 
         /// <summary>

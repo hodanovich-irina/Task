@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<allCards>
+  <bankCard>
+    <number>1</number>
+    <surname>Ходанович</surname>
+    <name>Ирина</name>
+    <endOfAction>20.01.2023</endOfAction>
+    <bankName>Belarusbank</bankName>
+    <cardNumber>1293 3942 9349 9432</cardNumber>
+    <cardType>Visa</cardType>
+    <cvc>102</cvc>
+  </bankCard>
+  <educationalCard>
+    <number>1</number>
+    <surname>Ходанович</surname>
+    <name>Ирина</name>
+    <middlename>Викторовна</middlename>
+    <startYear>01.09.2019</startYear>
+    <institutionName>ГГТУ</institutionName>
+  </educationalCard>
+  <insurancePolicy>
+    <number>1</number>
+    <surname>Ходанович</surname>
+    <name>Ирина</name>
+    <middlename>Викторовна</middlename>
+    <sex>жен.</sex>
+    <dateOfBirth>11.01.2002</dateOfBirth>
+    <insuranceNumber>129HK0204KK1</insuranceNumber>
+  </insurancePolicy>
+  <medicalCard>
+    <number>1</number>
+    <surname>Ходанович</surname>
+    <name>Ирина</name>
+    <middlename>Викторовна</middlename>
+    <sex>жен.</sex>
+    <dateOfBirth>11.01.2002</dateOfBirth>
+    <adress>г.Гомель пр-т. Речицкий 135</adress>
+    <phoneNumber>ЦРБ</phoneNumber>
+    <institutionName>+375449384930</institutionName>
+  </medicalCard>
+  <bankCard>
+    <number>2</number>
+    <surname>Мозоль</surname>
+    <name>Ольга</name>
+    <endOfAction>10.02.2023</endOfAction>
+    <bankName>Belarusbank</bankName>
+    <cardNumber>1883 8843 2839 3331</cardNumber>
+    <cardType>Mastercard</cardType>
+    <cvc>898</cvc>
+  </bankCard>
+  <passport>
+    <number>2</number>
+    <surname>Мозоль</surname>
+    <name>Ольга</name>
+    <middlename>Александровна</middlename>
+    <sex>жен.</sex>
+    <dateOfBirth>24.06.2002</dateOfBirth>
+    <identificationeNumber>12HY908M39V</identificationeNumber>
+    <citizen>РБ</citizen>
+    <start>20.01.2016</start>
+  </passport>
+  <educationalCard>
+    <number>3</number>
+    <surname>Каплюк</surname>
+    <name>Валерия</name>
+    <middlename>Олеговна</middlename>
+    <startYear>01.09.2020</startYear>
+    <institutionName>БГУ</institutionName>
+  </educationalCard>
+</allCards>

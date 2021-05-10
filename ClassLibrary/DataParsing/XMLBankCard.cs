@@ -20,7 +20,7 @@ namespace ClassLibrary.DataParsing
         public void XMLCreateBankCard(BankCard card) 
         {
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("XMLFileCardInf.xml");
+            xDoc.Load(@"../../XMLFileCardInf.xml");
             XmlElement xRoot = xDoc.DocumentElement;
             XmlElement userElem = xDoc.CreateElement("bankCard");
             XmlElement a1 = xDoc.CreateElement("number");
@@ -48,7 +48,7 @@ namespace ClassLibrary.DataParsing
             userElem.AppendChild(a7);
             userElem.AppendChild(a8);
             xRoot.AppendChild(userElem);
-            xDoc.Save("XMLFileCardInf.xml");
+            xDoc.Save(@"../../XMLFileCardInf.xml");
         }
 
         /// <summary>

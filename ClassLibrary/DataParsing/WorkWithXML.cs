@@ -22,7 +22,7 @@ namespace ClassLibrary.DataParsing
         {
             List<ElectronicCard> cards = new List<ElectronicCard>();
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("XMLFileCardInf.xml");
+            xDoc.Load(@"../../XMLFileCardInf.xml");
             XmlElement xRoot = xDoc.DocumentElement;
             ElectronicCard card = null;
 
